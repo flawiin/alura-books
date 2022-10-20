@@ -1,0 +1,24 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    width: 26.75rem;
+    height: 5rem;
+    background-color: var(--cor-branca);
+    
+}
+
+.cabecalho-menu {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    background-image: url("../img/header/Menu.svg");
+}
+
+.cabecalho-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-right: 6.195rem;
+    padding-left: .875rem;
+}
