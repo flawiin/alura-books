@@ -32,4 +32,8 @@
     margin-bottom: 1rem;
 }
 
+.swiper-pagination-bullet-active {
+    background: var(--cor-azul-gradiente);
+}
+
 
