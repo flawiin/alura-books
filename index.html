@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
     
 </head>
 <body>
@@ -37,9 +39,40 @@
             <h1 class="banner__titulo">Já sabe por onde começar?</h1>
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input class="banner__pesquisa" type="search" placeholder="       Qual será sua próxima pesquisa?">
-            
         </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/carrossel/ApacheKafka.svg" alt="Livro"></div>
+                    <div class="swiper-slide"><img src="assets/img/carrossel/Lideranca.svg" alt="Livro"></div>
+                    <div class="swiper-slide"><img src="assets/img/carrossel/Javascript.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/carrossel/Guia-Front-end.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/carrossel/Portugol.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/carrossel/Guia-Front-end.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/carrossel/UX.svg" alt=""></div>
+                </div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
     </main>
+    
     
 </body>
 </html>
