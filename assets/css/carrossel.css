@@ -71,7 +71,7 @@
     font-style: normal;
     line-height: 1.5rem;
     color: var(--cor-laranja);
-    padding: 1rem 0 .5625rem 1rem;
+    padding: 1rem .4375rem .5625rem 1rem;
 }
 
 .descricao__titulo--livro {
@@ -96,7 +96,6 @@
 }
 
 .card__imagem {
-    padding-right: 1.0625rem;
     align-self: flex-start;
     position: relative;
     top: 21px;
@@ -111,8 +110,6 @@
     height: 3rem;
     background-color: var(--cor-laranja);
     padding: .5rem 1rem;
-    position: relative;
-    right: 8px;
 }
 
 .saiba-mais__botao {
