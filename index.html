@@ -54,25 +54,45 @@
                     <div class="swiper-slide"><img src="assets/img/carrossel/Guia-Front-end.svg" alt=""></div>
                     <div class="swiper-slide"><img src="assets/img/carrossel/UX.svg" alt=""></div>
                 </div>
-              
-                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
+
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo--livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <img class="card__imagem" src="assets/img/card/Angular.svg" alt="#">
+                </div>
+
+                <div class="card__botao">
+                    <div class="botao__descricao">
+                        <a href="#"><img src="assets/img/header/Favoritos.svg" alt=""></a>
+                        <a href="#"><img src="assets/img/header/Compras.svg" alt=""></a>
+                    </div>
+
+                    <div class="saiba-mais">
+                        <a class="saiba-mais__botao" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-                spaceBetween: 10,
-                slidesPerView: 3,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                },
-            });
-        </script>
+        
     </main>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+        });
+    </script>
     
 </body>
 </html>
