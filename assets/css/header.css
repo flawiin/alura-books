@@ -51,6 +51,7 @@
 
 .cabecalho__botao:checked ~ .lista-menu {
     display: block;
+    z-index: 2;
 }
 
 .cabecalho__botao {
