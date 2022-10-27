@@ -34,6 +34,7 @@
     border: 1px solid var(--cor-branca);
     padding: .625rem 1.5rem;
     background-color: transparent;
+    color: var(--cor-branca);
 
 }
 
@@ -48,6 +49,4 @@
     background-repeat: no-repeat;
     background-position: 3.4375rem;
     text-align: center;
-
-
 }
