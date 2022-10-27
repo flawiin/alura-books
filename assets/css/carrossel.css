@@ -53,7 +53,7 @@
     height: 15.875rem;
 }
 
-.card__botao {
+.card__botoes {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,19 +102,17 @@
 
 }
 
-.saiba-mais {
+.card__saiba-mais {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 8.1875rem;
-    height: 3rem;
-    background-color: var(--cor-laranja);
-    padding: .0625rem 1rem;
-}
-
-.saiba-mais__botao {
     color: var(--cor-branca);
     text-decoration: none;
     font-weight: 700;
     line-height: 1.5rem;
+    width: 8.1875rem;
+    height: 3rem;
+    background-color: var(--cor-laranja);
+    padding: .0625rem 1rem;
+    
 }
