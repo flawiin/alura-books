@@ -14,6 +14,7 @@
     text-transform: uppercase;
     padding: 1.25rem 6.4375rem .5rem 6.5rem;
     background-color: var(--cor-branca);
+    text-align: center;
 }
 
 .swiper-slide img {
@@ -43,7 +44,7 @@
     margin: 1.25rem 1.5rem;
     border-radius: .625rem;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.25);
-    padding-bottom: 1.25rem;
+    padding-bottom: .625rem;
 }
 
 .card__descricao {
@@ -74,6 +75,21 @@
     padding: 1rem .4375rem .5625rem 1rem;
 }
 
+.descricao__estrelas {
+    padding: 1.4375rem 0 .5625rem 1rem;
+}
+
+.descricao__titulo--card-dois {
+    width: 11.1875rem;
+    height: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.6875rem;
+    color: var(--cor-laranja);
+    padding: 0 .4375rem .5rem 1rem;
+}
+
 .descricao__titulo--livro {
     width: 8.9375rem;
     height: 3.375rem;
@@ -83,6 +99,17 @@
     line-height: 1.6875rem;
     color: #002F52;
     padding: 0 0 .5625rem 1rem;
+}
+
+.descricao__titulo--autora {
+    width: 9.9375rem;
+    height: 1.6875rem;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #002F52;
+    padding: 0 0 .5rem 1rem;
 }
 
 .descricao__texto {

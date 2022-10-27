@@ -1,0 +1,51 @@
+.topicos {
+    width: 26.7237rem;
+    height: 14.4375rem;
+    background: var(--cor-azul-gradiente);
+}
+
+.topicos__titulo {
+    width: 26.75rem;
+    height: 1.5rem;
+    font-weight: 300;
+    color: var(--cor-branca);
+    line-height: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.item-lista--um {
+    display: flex;
+    justify-content: space-between;
+    gap: .625rem;
+    padding: 1.75rem 2.5rem
+
+}
+
+.item-lista--dois {
+    display: flex;
+    justify-content: space-between;
+    gap: .625rem;
+    padding: 1rem 3.125rem
+}
+
+.item-lista--tres {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding: 1.5rem 2.5rem;
+}
+
+.item-lista__link {
+    font-size: .875rem;
+    color: var(--cor-branca);
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+
+
+
+
