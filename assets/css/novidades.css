@@ -1,0 +1,46 @@
+.novidades {
+	width: 25rem;
+	height: 9.6875rem;
+	background-color: var(--cor-branca);
+    padding-left: 1.5rem;
+    padding-bottom: 3.125rem;
+}
+
+.novidades__titulo {
+	font-weight: 500;
+	font-size: 1.125rem;
+	font-style: normal;
+	color: var(--cor-azul-gradiente);
+	padding: 1.5rem 1.5rem .5rem 1.5rem;
+	line-height: 1.6875rem;
+}
+
+.novidades__texto {
+	font-weight: 300;
+	padding: 0 1.4375rem 1.5rem 1.5rem;
+	line-height: 1.5rem;
+	color: #002f52;
+}
+
+.novidades__pesquisa {
+	width: 23.75rem;
+	height: 2.75rem;
+	border: 1px solid #002f52;
+	border-radius: 1.5rem;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+.novidades__pesquisa::placeholder {
+	width: 10.375rem;
+	height: 1.5rem;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	font-family: "Poppins", sans-serif;
+	background-image: url("../img/novidades/mail_black_24dp\ 1.svg");
+	background-repeat: no-repeat;
+	background-position: 3.75rem;
+	color: #002f52;
+}

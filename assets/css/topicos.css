@@ -1,38 +1,35 @@
 .topicos {
-    width: 26.7237rem;
-    height: 18.4375rem;
-    background: var(--cor-azul-gradiente);
+	width: 26.7237rem;
+	height: 18.4375rem;
+	background: var(--cor-azul-gradiente);
 }
 
 .topicos__titulo {
-    width: 26.75rem;
-    height: 1.5rem;
-    font-weight: 300;
-    color: var(--cor-branca);
-    line-height: 1.5rem;
-    text-align: center;
-    padding-top: 1.5rem;
+	width: 26.75rem;
+	height: 1.5rem;
+	font-weight: 300;
+	color: var(--cor-branca);
+	line-height: 1.5rem;
+	text-align: center;
+	padding-top: 1.5rem;
 }
 
 .topicos__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: .625rem;
-    margin: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.625rem;
+	margin: 1.5rem;
 }
 
 .topicos__item {
-    background-color: var(--cor-laranja);
-    padding: 1rem;
-    margin-bottom: 1rem;
+	background-color: var(--cor-laranja);
+	padding: 1rem;
+	margin-bottom: 1rem;
 }
 
 .topicos__link {
-    color: var(--cor-branca);
-    font-weight: 700;
-    text-decoration: none;
+	color: var(--cor-branca);
+	font-weight: 700;
+	text-decoration: none;
 }
-
-
-
