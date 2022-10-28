@@ -123,6 +123,8 @@
 }
 
 .card__imagem {
+    width: 10.125rem;
+    height: 10.5rem;
     align-self: flex-start;
     position: relative;
     top: 21px;
