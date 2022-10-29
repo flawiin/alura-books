@@ -3,7 +3,7 @@
 	height: 9.6875rem;
 	background-color: var(--cor-branca);
     padding-left: 1.5rem;
-    padding-bottom: 3.125rem;
+    padding-bottom: 4.375rem;
 }
 
 .novidades__titulo {
@@ -41,8 +41,7 @@
 	font-family: "Poppins", sans-serif;
 	background-image: url("../img/novidades/mail_black_24dp\ 1.svg");
 	background-repeat: no-repeat;
-	background-position: 1.875rem;
+	background-position: 3.75rem;
 	color: #002f52;
 	padding-left: 5rem;
-
 }
