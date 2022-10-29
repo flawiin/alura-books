@@ -28,7 +28,7 @@
 	border: 1px solid #002f52;
 	border-radius: 1.5rem;
 	font-size: 1rem;
-	padding: 1rem;
+	padding: 2rem;
 }
 
 .novidades__pesquisa::placeholder {
@@ -41,6 +41,8 @@
 	font-family: "Poppins", sans-serif;
 	background-image: url("../img/novidades/mail_black_24dp\ 1.svg");
 	background-repeat: no-repeat;
-	background-position: 3.75rem;
+	background-position: 1.875rem;
 	color: #002f52;
+	padding-left: 5rem;
+
 }
