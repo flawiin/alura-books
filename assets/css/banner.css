@@ -51,3 +51,9 @@
     text-align: center;
     padding-left: 1.25rem;
 }
+
+@media screen and (min-width: 64rem) {
+    .banner {
+        width: 64rem;
+    }
+}
