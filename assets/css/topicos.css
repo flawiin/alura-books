@@ -33,3 +33,36 @@
 	font-weight: 700;
 	text-decoration: none;
 }
+
+@media screen and (min-width: 64rem) {
+	.topicos {
+		width: 64rem;
+		height: 20.75rem;
+	}
+
+	.topicos__titulo {
+		margin: 0 auto;
+		width: 64rem;
+		height: 2.25rem;
+		font-size: 1.5rem;
+	}
+
+	.topicos__lista {
+		height: 12rem;
+		display: flex;
+		gap: 15px;
+	}
+
+	.topicos__item {
+		display: flex;
+		width: 10.25rem;
+		height: 3.375rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.topicos__link {
+		font-size: 1.5rem;
+	}
+}

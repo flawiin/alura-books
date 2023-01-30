@@ -172,6 +172,10 @@
         margin-left: 57px;
     }
 
+    .card__imagem--dois {
+        margin-left: 4rem;
+    }
+
     .card__botoes {
         justify-content: space-between;
         width: 36.75rem;
