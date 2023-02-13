@@ -41,25 +41,45 @@
 	}
 
 	.topicos__titulo {
-		margin: 0 auto;
+		margin: 26.5px auto;
 		width: 64rem;
 		height: 2.25rem;
 		font-size: 1.5rem;
+		padding-bottom: 0;
 	}
 
 	.topicos__lista {
+		width: 1024px;
 		height: 12rem;
 		display: flex;
 		gap: 15px;
+		margin: 40px auto;
 	}
 
 	.topicos__item {
 		display: flex;
+		flex-wrap: wrap;
 		width: 10.25rem;
 		height: 3.375rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+	}
+
+	.topicos__item--markenting {
+		width: 17.375rem;
+	}
+
+	.topicos__item--agile {
+		width: 7.9375rem;
+	}
+
+	.topicos__item--00 {
+		width: 6.6875rem;
+	}
+
+	.topicos__item--java {
+		width: 7.875rem;
 	}
 
 	.topicos__link {

@@ -33,7 +33,19 @@
         <h1 class="cabecalho__titulo"><strong class="cabecalho__titulo--negrito">Alura</strong>Books</h1>
         <nav class="cabecalho__menu-tablet">
             <ul class="menu-tablet__container">
-                <li class="menu-tablet__item"><a class="menu-tablet__link" href="#">Categorias</a></li>
+                <input type="checkbox" id="menu-tablet__menu" class="menu-tablet__botao">
+                <label for="menu-tablet__menu">
+                    <li class="menu-tablet__item">Categorias</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="#">Programação</a></li>
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="#">Front-End</a></li>
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="#">Infraestrutura</a></li>
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="#">Business</a></li>
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="#">Disign & Ux</a></li>
+                </ul>
+
                 <li class="menu-tablet__item"><a class="menu-tablet__link" href="#">Favoritos</a></li>
                 <li class="menu-tablet__item"><a class="menu-tablet__link" href="#">Minha Estante</a></li>
             </ul>
@@ -137,13 +149,13 @@
             <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
             <ul class="topicos__lista">
                 <li class="topicos__item"><a class="topicos__link" href="#">Android</a></li>
-                <li class="topicos__item"><a class="topicos__link" href="#">Markenting Digital</a></li>
-                <li class="topicos__item"><a class="topicos__link" href="#">Agile</a></li>
+                <li class="topicos__item topicos__item--markenting"><a class="topicos__link" href="#">Markenting Digital</a></li>
+                <li class="topicos__item topicos__item--agile"><a class="topicos__link" href="#">Agile</a></li>
                 <li class="topicos__item"><a class="topicos__link" href="#">Startups</a></li>
                 <li class="topicos__item"><a class="topicos__link" href="#">HTML & CSS</a></li>
                 <li class="topicos__item"><a class="topicos__link" href="#">Python</a></li>
-                <li class="topicos__item"><a class="topicos__link" href="#">OO</a></li>
-                <li class="topicos__item"><a class="topicos__link" href="#">Java</a></li>
+                <li class="topicos__item topicos__item--00"><a class="topicos__link" href="#">OO</a></li>
+                <li class="topicos__item topicos__item--java"><a class="topicos__link" href="#">Java</a></li>
             </ul>
         </section>
 

@@ -78,7 +78,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cor-laranja);
     line-height: 1.5rem;
     padding: 1.5rem 0 .5rem 1.5rem;
@@ -114,7 +114,7 @@
 
     .cabecalho__logo {
         margin-left: 5rem;
-        padding: 0 4px 0 0;
+        padding: 0 .25rem 0 0;
     }
 
     .cabecalho__titulo {
@@ -124,7 +124,7 @@
         height: 1.875rem;
         font-size: 1.875rem;
         line-height: 1.875rem;
-        margin-top: 10px;
+        margin-top: .625rem;
         padding-right: 3.5625rem;
         display: block;
     }
@@ -142,11 +142,11 @@
     .menu-tablet__container {
         display: flex;
         flex-direction: row;
-        gap: 32px;
+        gap: 2rem;
         padding-right: 2.9375rem;
     }
 
-    .menu-tablet__link {
+    .menu-tablet__item, .menu-tablet__link {
         font-family: 'Poppins', sans-serif;
         font-size: 1rem;
         line-height: 1.5rem;
@@ -154,6 +154,7 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #000000;
+        cursor: pointer;
     }
 
     .cabecalho__coracao {
@@ -161,6 +162,22 @@
     }
 
     .cabecalho__sacola {
-        margin-right: 38px;
+        margin-right: 2.375rem;
+    }
+
+    .menu-tablet__botao:checked ~ .lista-menu {
+        display: block;
+    }
+
+    .menu-tablet__botao {
+        display: none;
+    }
+
+    .lista-menu {
+        position: absolute;
+        left: 21.25rem;
+        width: 11.25rem;
+        height: auto;
+        z-index: 2;
     }
 }
