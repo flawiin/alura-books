@@ -65,7 +65,10 @@
         <!-- Primeiro Carrossel -->
         
         <section class="carrossel">
-            <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+            <div class="carrossel__box-titulo">
+                <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+            </div>
+            
             <div class="swiper">
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
@@ -89,15 +92,15 @@
                         <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
                         <h2 class="descricao__titulo--livro">Angular 11 e Firebase</h2>
                         <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                        <div class="card__botoes--um">
+                            <a href="#"><img src="assets/img/header/Favoritos.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/header/Compras.svg" alt=""></a>
+                        </div>
                     </div>
-                    <img class="card__imagem" src="assets/img/card/Angular.svg" alt="#">
+                    
                 </div>
-
-                <div class="card__botoes">
-                    <div class="card__botao">
-                        <a href="#"><img src="assets/img/header/Favoritos.svg" alt=""></a>
-                        <a href="#"><img src="assets/img/header/Compras.svg" alt=""></a>
-                    </div>
+                <div class="container__card-imagem">
+                    <img class="card__imagem" src="assets/img/card/Angular.svg" alt="#">
                     <a class="card__saiba-mais" href="#">Saiba mais</a>
                 </div>
             </div>
@@ -105,8 +108,11 @@
 
         <!-- Segundo Carrossel -->
         
-        <section class="carrossel">
-            <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <section class="carrossel-dois">
+            <div class="carrossel__box-titulo">
+                <h2 class="carrossel__titulo">Mais vendidos</h2>
+            </div>
+            
             <div class="swiper">
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
@@ -131,17 +137,19 @@
                         <h3 class="descricao__titulo--card-dois">Autora do Mês</h3>
                         <h2 class="descricao__titulo--autora">Juliana Agarikov</h2>
                         <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                        <div class="card__botoes--dois">
+                            <a href="#"><img src="assets/img/header/Favoritos.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/header/Compras.svg" alt=""></a>
+                        </div>
+                        
                     </div>
-                    <img class="card__imagem card__imagem--dois" src="assets/img/card/Perfil-escritora 1.svg" alt="#">
+                    
                 </div>
-
-                <div class="card__botoes">
-                    <div class="card__botao">
-                        <a href="#"><img src="assets/img/header/Favoritos.svg" alt=""></a>
-                        <a href="#"><img src="assets/img/header/Compras.svg" alt=""></a>
-                    </div>
+                <div class="container__card-imagem">
+                    <img class="card__imagem" src="assets/img/card/Perfil-escritora 1.svg" alt="#">
                     <a class="card__saiba-mais" href="#">Saiba mais</a>
                 </div>
+                
             </div>
         </section>
 

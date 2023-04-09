@@ -1,20 +1,19 @@
-.carrossel {
-    width: 26.75rem;
-    height: 40.9375rem;
+.carrossel__box-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.4375rem;
+    background-color: var(--cor-branca);
 }
 
 .carrossel__titulo {
-    width: 13.8125rem;
-    height: 1.6875rem;
     color: var(--cor-laranja);
     font-weight: 700;
     font-style: normal;
     font-size: 1.125rem;
     line-height: 1.6875rem;
     text-transform: uppercase;
-    padding: 1.25rem 6.4375rem .5rem 6.5rem;
-    background-color: var(--cor-branca);
-    text-align: center;
+
 }
 
 .swiper-slide img {
@@ -38,13 +37,26 @@
 /* CARD */
 
 .card {
-    width: 23.75rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
     height: 18.4375rem;
     background-color: var(--cor-branca);
     margin: 1.25rem 1.5rem;
     border-radius: .625rem;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.25);
     padding-bottom: .625rem;
+}
+
+.container__card-imagem {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+}
+
+.card__imagem {
+    width: 11.125rem;
+    height: 11.125rem;
+    padding: 1.25rem .625rem .625rem;
 }
 
 .card__descricao {
@@ -54,15 +66,14 @@
     height: 15.875rem;
 }
 
-.card__botoes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 21.75rem;
-    height: 3rem;
-    position: relative;
-    bottom: 1.25rem;
-    margin: 0 auto;
+.card__botoes--um {
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.card__botoes--dois {
+    margin-left: 1.25rem;
+    margin-top: .9375rem;
 }
 
 .descricao__titulo {
@@ -122,15 +133,6 @@
 
 }
 
-.card__imagem {
-    width: 10.125rem;
-    height: 10.5rem;
-    align-self: flex-start;
-    position: relative;
-    top: 21px;
-
-}
-
 .card__saiba-mais {
     display: flex;
     align-items: center;
@@ -139,10 +141,13 @@
     text-decoration: none;
     font-weight: 700;
     line-height: 1.5rem;
-    width: 8.1875rem;
+    width: 8.75rem;
     height: 3rem;
     background-color: var(--cor-laranja);
     padding: .0625rem 1rem;
+    margin-top: 1.25rem;
+    position: relative;
+    left: .8125rem;
     
 }
 
@@ -162,6 +167,8 @@
     }
 
     .card {
+        display: grid;
+        grid-template-areas: 60% 40%;
         width: 36.75rem;
         height: 16.625rem;
         margin: 48px auto;
@@ -169,21 +176,20 @@
     }
 
     .card__imagem {
-        margin-left: 57px;
+        margin-left: 100px;
     }
 
     .card__imagem--dois {
-        margin-left: 4rem;
+        margin-left: 90px;
     }
 
-    .card__botoes {
-        justify-content: space-between;
-        width: 36.75rem;
+    .card__botoes--um {
+        margin-top: 45px;
     }
 
     .card__saiba-mais {
-        margin-bottom: 50px;
-        margin-right: 20px;
+        margin-top: 5px;
+        margin-left: 100px;
     }
 
     .descricao__titulo, .descricao__texto {
