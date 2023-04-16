@@ -1,8 +1,7 @@
 .rodape {
     display: flex;
     align-items: center;
-    width: 25.25rem;
-    height: 4.0625rem;
+    height: 4rem;
     background-color: #F9F9F9;
     border-top: 1px solid #858585;
     padding-left: 1.5rem;
@@ -10,4 +9,26 @@
 
 .rodape__titulo {
     color: black;
+}
+
+.rodape-container {
+    display: none;
+}
+
+@media screen and (min-width: 64rem) {
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        height: 100%;
+    }
+
+    .rodape-container {
+        display: block;
+    }
+
+    .rodape__box-link {
+        display: flex;
+        align-items: center;
+    }
 }

@@ -16,6 +16,10 @@
 
 }
 
+.swiper-wrapper {
+    gap: 20px;
+}
+
 .swiper-slide img {
     width: 100%;
 }
@@ -157,13 +161,12 @@
         height: 100%;
     }
 
-    .carrossel__titulo {
-        width: 64rem;
-        padding: 3.1875rem 0 1rem 0;
-    }
-
     .swiper {
         width: 50.0625rem;
+    }
+
+    .swiper-slide img {
+        width: 80%;
     }
 
     .card {

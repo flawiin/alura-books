@@ -1,5 +1,4 @@
 .novidades {
-	width: 25.25rem;
 	height: 9.6875rem;
 	background-color: var(--cor-branca);
     padding-left: 1.5rem;
@@ -13,6 +12,7 @@
 	color: var(--cor-azul-gradiente);
 	padding: 1.5rem 1.5rem .5rem 1.5rem;
 	line-height: 1.6875rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 .novidades__texto {
@@ -45,4 +45,28 @@
 	color: #002f52;
 	padding-left: 5rem;
 
+}
+
+@media screen and (min-width: 64rem) {
+	.novidades {
+		display: flex;
+	}
+
+	.novidades__box-titulo {
+		width: 23.5rem;
+		margin-left: 98px;
+	}
+
+	.novidades__titulo {
+		width: 23.5rem;
+		font-size: 1.5rem;
+		line-height: 2.25rem;
+	}
+
+	.novidades__pesquisa {
+		margin-top: 3.75rem;
+		padding: 1rem;
+		margin-left: 1.25rem;
+	}
+	
 }
