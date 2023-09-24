@@ -1,10 +1,4 @@
-.carrossel {
-    width: 26.75rem;
-    height: 40.9375rem;
-}
-
 .carrossel__titulo {
-    width: 13.8125rem;
     height: 1.6875rem;
     color: var(--cor-laranja);
     font-weight: 700;
@@ -12,7 +6,7 @@
     font-size: 1.125rem;
     line-height: 1.6875rem;
     text-transform: uppercase;
-    padding: 1.25rem 6.4375rem .5rem 6.5rem;
+    padding: 1.25rem 0;
     background-color: var(--cor-branca);
     text-align: center;
 }
@@ -21,14 +15,18 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
-    display: none;
-}
-
 .swiper-pagination {
     position: initial;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.swiper-wrapper {
+    gap: 20px ;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
 }
 
 .swiper-pagination-bullet-active {
@@ -38,7 +36,8 @@
 /* CARD */
 
 .card {
-    width: 23.75rem;
+    display: flex;
+    justify-content: space-between;
     height: 18.4375rem;
     background-color: var(--cor-branca);
     margin: 1.25rem 1.5rem;
@@ -49,8 +48,7 @@
 
 .card__descricao {
     display: flex;
-    justify-content: space-between;
-    width: 10.5625rem;
+    flex-direction: column;
     height: 15.875rem;
 }
 
@@ -76,7 +74,9 @@
 }
 
 .descricao__estrelas {
-    padding: 1.4375rem 0 .5625rem 1rem;
+    width: 91px;
+    height: 15px;
+    margin: 1.4375rem 0 0 1.125rem;
 }
 
 .descricao__titulo--card-dois {
@@ -99,17 +99,6 @@
     line-height: 1.6875rem;
     color: #002F52;
     padding: 0 0 .5625rem 1rem;
-}
-
-.descricao__titulo--autora {
-    width: 9.9375rem;
-    height: 1.6875rem;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.125rem;
-    line-height: 1.6875rem;
-    color: #002F52;
-    padding: 0 0 .5rem 1rem;
 }
 
 .descricao__texto {
@@ -143,5 +132,48 @@
     height: 3rem;
     background-color: var(--cor-laranja);
     padding: .0625rem 1rem;
+    margin-top: 3.75rem;
+    margin-right: 1rem;
     
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel {
+        width: 100%;
+        
+    }
+
+    .swiper {
+        width: 47.625rem;
+    }
+
+    .carrossel__titulo {
+        text-align: center;
+        padding: 1.25rem 0;
+        width: 100%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+
+    }
+
+    .card {
+        width: 36.75rem;
+        margin: 3rem auto;
+        
+    }
+
+    .card__descricao__botoes {
+        margin-top: 4.0625rem;
+        margin-left: .8125rem;
+    }
+
+    .card__descricao__botoes--card-dois {
+        margin-top: 1.875rem;
+    }
+
+    .descricao__titulo, .descricao__texto, .descricao__titulo--livro {
+        width: 20.125rem
+    }
 }

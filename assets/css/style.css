@@ -9,14 +9,19 @@
     --cor-de-fundo: #EBECEE;
     --cor-branca: #FFFFFF;
     --cor-laranja: #EB9B00;
+    --cor-preto: #000000;
+    --cor-cinza: #858585;
+    --cor-chumbo: #474646;
     --cor-azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: 'Poppins';
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-segundaria: 'Josefin Sans', sans-serif;
+
     
 }
 
 body {
-    width: 26.75rem;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     background: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 1rem;

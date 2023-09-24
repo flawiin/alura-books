@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 26.75rem;
     height: 13.4375rem;
     background: linear-gradient(97.54deg, rgba(0, 47, 82) 35.49%, rgba(50, 101, 137) 165.37%);
 }
@@ -50,4 +49,37 @@
     background-position: 1.875rem;
     text-align: center;
     padding-left: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        width: 100%;
+    }
+
+    .banner__texto {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: var(--fonte-principal);
+        color: var(--cor-branca);
+        line-height: 2.25rem
+    }
+
+    .banner__titulo {
+        width: 100%;
+        text-align: center;
+        font-size: 2.25rem;
+    }
+
+    .banner {
+        height: 23.4375rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner__pesquisa {
+        width: 29.75rem;
+        
+    }
+
 }

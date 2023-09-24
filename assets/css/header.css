@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 .cabecalho {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: .625rem;
-    width: 26.75rem;
     height: 5rem;
     background-color: var(--cor-branca);
     position: relative;
@@ -11,39 +13,20 @@
 }
 
 .cabecalho__menu {
-    width: 3rem;
-    height: 3rem;
     cursor: pointer;
+    padding-right: 11px;
 }
 
-.cabecalho__logo {
-    width: 2.5rem;
-    height: 2.5rem;
-    padding-right: 6.195rem;
-    padding-left: .875rem;
-}
-
-.cabecalho__coracao {
-    width: 3.18rem;
-    height: 3rem;
-}
-
-.cabecalho__sacola {
-    width: 3.375rem;
-    height: 3.125rem;
-}
-
-.cabecalho__usuario {
-    width: 3rem;
-    height: 3rem;
+.cabecalho__titulo {
+    display: none;
 }
 
 .lista-menu {
-    width: 18.75rem;
+    width: 15.625rem;
     height: 21.5rem;
     display: none;
-    position: absolute;
     top: 100%;
+    position: absolute;
     left: 0;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.25);
     background-color: var(--cor-branca);
@@ -54,6 +37,14 @@
     display: block;
     z-index: 2;
     transition: .25s;
+}
+
+.cabecalho__botao:checked ~ .cabecalho__label {
+    background-image: url(../img/header/Frame_20.svg);
+    width: 80px;
+    height: 80px;
+    margin-left: -20px;
+
 }
 
 .cabecalho__botao {
@@ -90,4 +81,145 @@
     -webkit-text-fill-color: text;
     background-clip: text;
     text-decoration: none;
+}
+
+.menu-lista {
+    display: none;
+}
+
+.lista-menu-categorias, .menu-categoria__botao, .menu-categoria__link {
+    display: none;
+}
+
+@media screen and (min-width: 64rem) {
+    .cabecalho {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+    .container-cabecalho-logo {
+        display: flex;
+        
+    }
+
+    .cabecalho__titulo {
+        color: var(--cor-preto);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: .3125rem;
+        padding-top: .625rem;
+    }
+
+    .cabecalho__titulo--negrito {
+        color: var(--cor-preto);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .cabecalho__menu {
+        display: none;
+    }
+
+    .menu-lista {
+        display: flex;
+        gap: 2.625rem;
+        text-transform: uppercase;
+    }
+
+    .menu-lista__link {
+        text-decoration: none;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: var(--cor-preto);
+    }
+
+
+    .cabecalho-icones {
+        padding-right: 5rem;
+    }
+
+    .cabecalho__coracao {
+        display: none;
+    }
+
+    .cabecalho__botao {
+        display: none;
+    }
+
+    .cabecalho__titulo {
+        display: inline-block;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    .menu-categoria__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: -42px;
+        cursor: pointer;
+        display: block;
+        color: var(--cor-preto);
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .menu-categorias {
+        background-color: var(--cor-azul-gradiente);
+    }
+
+    .menu-categoria__link:hover {
+        background-color: var(--cor-azul-gradiente);
+    }
+
+    .menu-categoria__botao {
+        display: none;
+    }
+
+    .lista-menu-categorias {
+        margin: 0 auto;
+        position: absolute;
+        top: 100%;
+        left: 34%;
+        display: none;
+        background-color: var(--cor-branca);
+        transition: 25s ease-in-out;
+        width: 9.375rem;
+    }
+
+    .lista-menu-categorias__item {
+        padding: 1rem 0 1rem .8rem;
+    }
+    
+    .lista-menu-categorias__link {
+        text-decoration: none;
+        color: var(--cor-azul-gradiente);
+        text-transform: uppercase;
+    }
+
+    .lista-menu-categorias__item:hover {
+        background: var(--cor-azul-gradiente);
+        color: var(--cor-branca);
+        padding: 1rem;
+    }
+
+    .menu-categoria__botao:checked ~ .lista-menu-categorias {
+        display: block;
+        transition: 25s ease-in-out;
+    }
+
+
+
 }
