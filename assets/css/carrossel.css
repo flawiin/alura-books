@@ -16,13 +16,13 @@
 }
 
 .swiper-pagination {
-    position: initial;
+    position: initial !important;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .swiper-wrapper {
-    gap: 20px ;
+    gap: 10px ;
 }
 
 .swiper-button-prev, .swiper-button-next {
