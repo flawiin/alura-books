@@ -71,8 +71,18 @@
 		display: flex;
 		justify-content: center;
 		gap: 24px;
+	}
+}
 
-		
-		
+@media screen and (min-width: 108rem) {
+	.topicos__lista {
+		width: 46.4375rem;
+		margin: 40px 0 44px 0;
+	}
+
+	.topicos__titulo {
+		margin: 32px 0 0 0;
+		font-size: 2rem;
+
 	}
 }

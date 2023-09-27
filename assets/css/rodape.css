@@ -70,3 +70,42 @@
 
 
 }
+
+@media screen and (min-width: 108rem) {
+    .rodape__linha {
+        width: 1px;
+        height: 396px;
+        border:#858585 solid 1px;
+        position: relative;
+        left: 90px;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .rodape__lista__link {
+        font-size: .875rem;
+        
+    }
+
+    .rodape__container, .rodape__container--educacao {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .rodape__container {
+        align-self: flex-start;
+    }
+
+    .rodape__container--direito {
+        margin-right: 100px;
+    }
+
+    .rodape__titulo--grupo-alura {
+        font-size: 1.5rem;
+        margin-left: 100px;
+    }
+}

@@ -177,3 +177,33 @@
         width: 20.125rem
     }
 }
+
+@media screen and (min-width: 108rem) {
+    .carrossel__container {
+        display: flex;
+        margin: 46px 212px 46px 174px;
+        gap: 50px;
+        
+    }
+
+    .carrossel__titulo {
+        font-size: 2rem;
+        padding: 3.75rem 0 2.1875rem 0;
+    }
+
+    .swiper {
+        position: relative;
+        top: 20px;
+    }
+
+    .card {
+        width: 36.75rem;
+        height: 17.375rem;
+    }
+
+    .swiper-slide img {
+        width: 180px;
+        height: 253.469px;
+        
+    }
+}
