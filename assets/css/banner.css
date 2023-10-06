@@ -31,7 +31,6 @@
     height: 2.75rem;
     border-radius: 1.5rem;
     border: 1px solid var(--cor-branca);
-    padding: .625rem 1.5rem;
     background-color: transparent;
     color: var(--cor-branca);
 }
@@ -45,9 +44,8 @@
     font-size: .875rem;
     background-image: url("../img/banner/Pesquisa.svg");
     background-repeat: no-repeat;
-    background-position: 4.0625rem;
-    text-align: center;
-    padding: .625rem 3.75rem;
+    background-position: 60px;
+    padding-left: 90px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -79,6 +77,11 @@
     .banner__pesquisa {
         width: 29.75rem;
         
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 90px;
+        padding-left: 130px;
     }
 
 }
